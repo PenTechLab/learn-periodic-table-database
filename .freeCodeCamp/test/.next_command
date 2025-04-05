@@ -222,3 +222,14 @@ git commit -m "chore: fix_db.sh fix"
 pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
 git add periodic_table.sql
 git commit -m "feat: Compact sql db queries into periodic_table.sql"
+touch README.md
+git add README.md
+git commit -m "chore: Add Read Me guide file"
+./element.sh
+1
+./element.sh 1
+git commit -m "chore: testing element.sh"
+git add elements.sh
+git commit -m "chore: testing element.sh"
+git add element.sh
+git commit -m "chore: testing element.sh"
