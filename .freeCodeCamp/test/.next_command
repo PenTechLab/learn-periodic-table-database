@@ -339,3 +339,7 @@ git add fix_database.sh
 git commit -m "fix: script for fixing all database errors with fix_database.s"
 git add element.sh
 git commit -m "test: create & test all tasks on element.sh"
+git add periodic_table.sql
+git commit -m "feat: Compact sql db queries into periodic_table.sql"
+git add README.md
+git commit -m "chore: Add Read Me guide file"
